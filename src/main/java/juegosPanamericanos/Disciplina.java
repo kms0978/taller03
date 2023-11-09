@@ -4,8 +4,8 @@ import java.util.*;
 
 public class Disciplina {
 
-	Collection<Equipo> equipo;
-	Collection<Atleta> atleta;
+	//Collection<Equipo> equipo;
+	//Collection<Atleta> atleta;
 	private String nombreDisciplina;
 	private int num_participantes;
 	private double recordMundial;
