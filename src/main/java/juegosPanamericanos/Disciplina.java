@@ -13,47 +13,33 @@ public class Disciplina {
 	public String getNombreDisciplina() {
 		return this.nombreDisciplina;
 	}
-
-	/**
-	 * 
-	 * @param nombreDisciplina
-	 */
 	public void setNombreDisciplina(String nombreDisciplina) {
 		this.nombreDisciplina = nombreDisciplina;
 	}
-
 	public int getNum_participantes() {
 		return this.num_participantes;
 	}
 
-	/**
-	 * 
-	 * @param num_participantes
-	 */
 	public void setNum_participantes(int num_participantes) {
 		this.num_participantes = num_participantes;
 	}
-
 	public double getRecordMundial() {
 		return this.recordMundial;
 	}
-
-	/**
-	 * 
-	 * @param recordMundial
-	 */
 	public void setRecordMundial(double recordMundial) {
 		this.recordMundial = recordMundial;
 	}
-
 	public void mostrarInfoDisciplina() {
-		// TODO - implement Disciplina.mostrarInfoDisciplina
-		throw new UnsupportedOperationException();
+		System.out.println("Disciplina{" +
+				"nombreDisciplina='" + nombreDisciplina + '\'' +
+				", num_participantes=" + num_participantes +
+				", recordMundial=" + recordMundial +
+				'}');
 	}
 
-	public Disciplina() {
-		// TODO - implement Disciplina.Disciplina
-		throw new UnsupportedOperationException();
+	public Disciplina(String nombreDisciplina, int num_participantes, double recordMundial) {
+		this.nombreDisciplina = nombreDisciplina;
+		this.num_participantes = num_participantes;
+		this.recordMundial = recordMundial;
 	}
-
 }
