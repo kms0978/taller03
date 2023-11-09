@@ -1,3 +1,5 @@
+package juegosPanamericanos;
+
 public class Equipo {
 
 	Disciplina disciplina;

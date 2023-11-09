@@ -1,3 +1,5 @@
+package juegosPanamericanos;
+
 public class Evento {
 
 	private Disciplina disciplina;

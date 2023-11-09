@@ -1,3 +1,5 @@
+package juegosPanamericanos;
+
 import java.util.*;
 
 public class Atleta {
